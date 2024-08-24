@@ -1,0 +1,165 @@
+/* Add some colors and animations */
+body {
+    background-color: #f5f5f5;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.height-cus{
+    height: 350px !important
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.machines {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.machines .desc {
+    margin-top: 20px;
+}
+
+.machines .desc p {
+    margin-bottom: 10px;
+}
+
+.contact-us {
+
+    color: #000000;
+    padding: 40px;
+}
+
+.contact-us .title {
+    color: #0048ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-us .description {
+    margin-bottom: 20px;
+}
+
+.contact-us form {
+    margin-top: 20px;
+}
+
+.contact-us .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-us .btn {
+    background-color: #337ab7;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-us .btn:hover {
+    background-color: #23527c;
+}
+
+.footer {
+
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Animations */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#mainbanner{
+    background-image: url("../images/banner-G1.jpg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
